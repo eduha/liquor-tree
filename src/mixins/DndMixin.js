@@ -88,8 +88,10 @@ function updateHelperClasses (target, classes) {
 }
 
 function getDropPosition (e, element) {
+  if (this.tree.options.dnd.noReorder) return DropPosition.ON;
+  
   const coords = element.getBoundingClientRect()
-  const nodeSection = coords.height / 3
+  const nodeSection = this.tree.options.dnd.lineHeight || coords.height / 3
 
   let dropPosition = DropPosition.ON
 
