@@ -67,7 +67,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amsik/liquor-tree.git"
+    "url": "git+https://github.com/eduha/liquor-tree.git"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
