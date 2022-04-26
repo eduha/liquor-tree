@@ -92,3 +92,4 @@ Check out the `package.json`s script section. There are 2 scripts:
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
