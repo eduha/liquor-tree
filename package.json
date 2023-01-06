@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 9001 -c ./docs/storybook -s ./docs/storybook/public"
   },
   "main": "src/main.js",
-  "module": "dist/liquor-tree.esm.js",
+  "module": "src/main.js",
   "files": [
     "src",
     "dist/*.js"
